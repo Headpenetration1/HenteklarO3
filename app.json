@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Henteklar",
+    "slug": "henteklar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#eff6ff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "no.frostbyte.henteklar"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#eff6ff"
+      },
+      "package": "no.frostbyte.henteklar",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/logo.png",
+      "bundler": "metro"
+    }
+  }
+}
